@@ -292,7 +292,8 @@
               <tr class="tableRow" v-for="(item, index) in userLoginDetails" :key="index">
                 <td class="tableContent bg-lightgrey">{{ index + 1 }}</td>
                 <td class="tableContent bg-lightgrey">{{ getDateString(new Date(item.date), "d-M-y") }}&nbsp;
-                  <small>({{ getDayFromDate(item.date) }})</small></td>
+                  <small>({{ getDayFromDate(item.date) }})</small>
+                </td>
                 <td class="tableContent text-right">{{ item.uniqueMobileLogin }}</td>
                 <td class="tableContent text-right">{{ item.uniqueWebLogin }}</td>
                 <td class="tableContent text-right">{{ item.uniqueApiLogin }}</td>
