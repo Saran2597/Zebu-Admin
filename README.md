@@ -1,4 +1,4 @@
-# admin-panel
+# ZEBU-Admin
 
 ## Project setup
 ```
